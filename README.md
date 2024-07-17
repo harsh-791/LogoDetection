@@ -11,6 +11,10 @@
         project = rf.workspace("YOUR_WORKSPACE").project("YOUR_PROJECT")
         version = project.version(VERSION_NUMBER)
         dataset = version.download("yolov8")
+        Also, it important to give correct path in data.yaml file for 
+        test: /content/AI_For_Engineer_Class-3/test/images
+        train: /content/AI_For_Engineer_Class-3/train/images
+        val: /content/AI_For_Engineer_Class-3/valid/images
 
 ## 3. Model Training
     * Train YOLOv8 model:
